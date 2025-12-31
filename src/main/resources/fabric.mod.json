@@ -18,8 +18,8 @@
     "subchunker_companion.mixins.json"
   ],
   "depends": {
-    "fabricloader": ">=${loader_version}",
-    "fabric-api": "*",
+    "fabricloader": "*",
+    "chunky": "*",
     "minecraft": "${minecraft_version}"
   }
 }

@@ -1,12 +1,16 @@
 {
-  "required": true,
+  "required": false,
   "minVersion": "0.8",
   "package": "com.github.qpcrummer.subchunker_companion.mixin",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
+    "ChunkyGenerationTaskMixin",
     "ChunkyProviderMixin",
     "DedicatedServerMixin",
-    "ServerStartMixin"
+    "RecipeManagerMixin",
+    "ServerAdvancementManagerMixin",
+    "ServerStartMixin",
+    "SimplePreparableReloadListenerMixin"
   ],
   "client": [
   ],
