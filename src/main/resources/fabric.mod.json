@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "subchunker_companion",
+  "version": "${version}",
+  "name": "SubchunkerCompanion",
+  "description": "A Polymer / Geyser compatibility layer",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/subchunker_companion/icon.png",
+  "environment": "server",
+  "entrypoints": {
+    "main": [
+      "com.github.qpcrummer.subchunker_companion.SubchunkerCompanion"
+    ]
+  },
+  "mixins": [
+    "subchunker_companion.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
